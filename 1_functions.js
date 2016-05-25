@@ -30,7 +30,7 @@ var helloWorld = function() {
     };
 
 console.log(helloWorld); // [Function]
-console.log(helloWorld()); // Hello World!
+console.log(helloWorld()); // Hello World_1!
 
 
 
@@ -43,9 +43,9 @@ var helloWorld = function() {
 
 console.log(helloWorld); // [Function]
 console.log(helloWorld()); // [Function]
-console.log(helloWorld()()); // Hello World!
+console.log(helloWorld()()); // Hello World_2!
 var hw = helloWorld();
-console.log(hw()); // Hello World!
+console.log(hw()); // Hello World_2!
 
 
 
