@@ -25,7 +25,6 @@ console.log(natal); // 'Wed May 25 2016 14:57:56 GMT-0300 (BRT)'
 //getTime - Retorna o tempo em Milisegundos
 //toString - Retorna a data em String
 
-//Criando uma data passando como parâmetro uma String.
 //Função Construtora. (UTILIZA O OPERADOR NEW)
 console.log(Date.parse('2016/05/25')); // 1464145200000
 console.log(new Date(1464145200000)); // 2016-05-25T03:00:00.000Z
