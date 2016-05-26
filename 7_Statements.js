@@ -23,7 +23,7 @@ var exemplo1 = function(text) {
   }
   return array.join(',');
 };
-console.log(exemplo1(text)); // O,l,a, ,M,u,n,d,0, ,L,0,u,c,0
+console.log(exemplo1(text)); // 'O,l,a, ,M,u,n,d,0, ,L,0,u,c,0'
 
 
 
@@ -52,7 +52,7 @@ var exemplo2 = function(text) {
     }
   return array.join('-');
 };
-console.log(exemplo2(text));// O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo2(text));// 'O-l-4- -M-u-n-d-0- -S-1-n-1-s-7-r-0'
 
 
 
@@ -81,7 +81,7 @@ var exemplo3 = function(text) {
   }
   return array.join(',');
 };
-console.log(exemplo3(text)); // O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo3(text)); // 'O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0'
 
 
 
@@ -112,11 +112,11 @@ var exemplo4 = function(text) {
   }
   return array.join('/');
 };
-console.log(exemplo4(text)); // O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo4(text)); // 'O/l/4/ /M/u/n/d/0/ /S/1/n/1/s/7/r/0'
 
 
 
-//Exemplo 5 - Tratamento de erros utilizando throw. Utiliza (!text) e typeof lançando a Função Construtora(new).
+//Exemplo 5 - Tratamento de erros utilizando throw para lançar a string.
 text = 'Ola Mundo Sinistro'
 var exemplo5 = function(text) {
   // 0 , Nan, "", false, null e undefined. Caso seja algum destes, o (!text) será verdadeiro
@@ -145,11 +145,12 @@ var exemplo5 = function(text) {
   return array.join('');
 };
 try {
-  console.log(exemplo5()); //Error Invalid text.
+  console.log(exemplo5());
 } catch(e) {
-  console.log("Error" + e);
+  console.log("Error:" + e); //Error: Invalid text
 }
-console.log(exemplo5(text)); // O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo5(text)); // 'Ol4 Mund0 S1n1s7r0'
+
 
 
 
@@ -189,11 +190,11 @@ var exemplo6 = function(text) {
   return array.join('+');
 };
 try {
-  console.log(exemplo6()); //Error Invalid text.
+  console.log(exemplo6());
 } catch(e) {
-  console.log("Error" + e.message + " " + e.nome); // Error Invalid text. Função armazenada na viriável VarError
+  console.log("Error:" + e.message + " " + e.nome); // Error Invalid text. Função armazenada na viriável VarError
 }
-console.log(exemplo6(text)); // O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo6(text)); // 'O+l+4+ +M+u+n+d+0+ +S+1+n+1+s+7+r+0'
 
 
 
@@ -235,13 +236,13 @@ var exemplo7 = function(text) {
   return array.join('=');
 };
 try {
-  console.log(exemplo7()); //Error Invalid text.
+  console.log(exemplo7());
 } catch(e) {
   console.log("Error: " + e.message + " " + e.nome); // Error Invalid text. Função armazenada na viriável VarError
 }
 try {
-  console.log(exemplo7(10)); //Error Invalid text.
+  console.log(exemplo7(10));
 } catch(e) {
   console.log("Error: " + e.message + " " + e.nome); // Error: Invalid type. Função armazenada na viriável VarError
 }
-console.log(exemplo7(text)); // O,l,4, ,M,u,n,d,0, ,S,1,n,1,s,7,r,0
+console.log(exemplo7(text)); // 'O=l=4= =M=u=n=d=0= =S=1=n=1=s=7=r=0'
