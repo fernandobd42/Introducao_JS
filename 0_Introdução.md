@@ -1,10 +1,10 @@
 
-```
-###A linguagem JavaScript é a única que as pessoas acham que não precisam aprender antes de começar a utilizar."
-(Douglas Crockford)
-```
-##O que é?
 
+###"A linguagem JavaScript é a única que as pessoas acham que não precisam aprender antes de começar a utilizar."
+(Douglas Crockford)
+
+##O que é?
+```
   JavaScript é uma linguagem de programação, criada por Dan Winkler em 1987 para a plataforma HyperCard
 da Apple. A princípio denominada HyperTalk, que era uma linguagem orientada a eventos, que veio para
 simplificar, a proposta do criador era de fazer uma linguagem para iniciantes.
@@ -55,10 +55,10 @@ reversa da linguagem JavaScript e criou a linguaguem JScript.
   A Netscape com medo de perder o controle, buscou padronizar a linguagem em entidades respeitadas, 
 até que em 1997 junto a ECMA(European Computer Manufacturers Association) Internacional, conseguiu 
 padronizar a linguagem nomeando-a ECMAScript como nome oficial, JavaScript é apenas o nome fantasia.
-
+```
 
 ##Características
-
+```
   JavaScript é uma linguagem interpretada, não é preciso instalar nada na sua máquina, nem um tipo de 
 compilador a não ser que voce queira interpretá-la.
   Utiliza de uma orientação a objetos baseada em protótipos, basicamente não usa classes para promover 
@@ -68,10 +68,10 @@ muito grande, só que isso gera um pouco de insegurança já que a gente não te
 com JavaScript é possível concatenar valores de tipos diferentes.
   A linguagem não apresenta suporte a programação multi-thread, mas nada impede que seus interpretadores
 implementem esta habilidade de fazer algum tipo de processamento em paralelo.
-
+```
 
 ##Como funciona?
-
+```
   Esta linguagem vem sendo bastante utilizada para o desenvolvimento de aplicações web, atualmente tanto no
 lado do cliente para promover os estilos nas páginas HTML com animações em CSS, quanto no lado do servidor
 para fazer a manipulação e validação dos dados utilizando NodeJS. A linguagem permite que a aplicação seja 
@@ -80,15 +80,15 @@ linguagem utilizando MongoDB.
   Hoje esta presente nos Browsers, a até nas Tvs, como nas samsungs smart. Usa o V8 que é o motor de 
 renderização da linguagem, que funciona como uma máquina virtual que compila o código em JavaScript para
 o formato nativo de máquina antes de executá-lo, tendo como propósito aumentar o desempenho da aplicação.
-
+```
 
 ##Por convenção aconselha-se criar as variáveis seguindo as regras:
-
+``` 
   -Devem começar por uma letra, $, ou _
   -Após a primeira letra, podem conter números.
   -Começam com letra minúscula e usam camelCase
   -É case-sensitive
-
+```
 
 #OBS: Com o JavaScript ficou simples se tornar um fullstack, pois é possível fazer tudo com esta linguagem do caralho.
 
