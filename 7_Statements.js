@@ -155,7 +155,7 @@ console.log(exemplo5(text)); // 'Ol4 Mund0 S1n1s7r0'
 
 
 //Exemplo 6 - Tratamento de erros utilizando throw. Utiliza (!text) lançando a Função Construtora(new) para chamar
-//variável VarError que recebe passa função.
+//variável VarError que passa uma função.
 text = 'Ola Mundo Sinistro'
 
 var VarError = function(message) {
