@@ -104,12 +104,12 @@ var Pessoa = function(nome, idade) {
 
 console.log(new Pessoa('Pedro', 20)); // { nome: 'pedro', idade: 20 }
 console.log(new Pessoa('Maria', 30)); // { nome: 'maria', idade: 30 }
-console.log(new Pessoa('Rafael', 40)); // {nome: 'rafael', idade: 40 }
+console.log(new Pessoa('Rafael', 40)); // { nome: 'rafael', idade: 40 }
 
 var pedro = {};
 Pessoa.call(pedro, 'Pedro', 20);
-console.log(pedro);
+console.log(pedro); // { nome: 'Pedro', idade: 20 }
 
 var maria = {};
-Pessoa.call(maria, 'Maaria', 30);
-console.log(maria);
+Pessoa.call(maria, 'Maria', 30);
+console.log(maria); // { nome: 'Maria', idade: 30 }
