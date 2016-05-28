@@ -178,4 +178,4 @@ console.log(x); // 9
 //Operação ternária (expressão) ? true : false.
 var idade = 22;
 var retorno = (idade >= 18) ? "Maior de idade" : "Menor de idade";
-console.log(retorno);
+console.log(retorno); // Maior de idade
