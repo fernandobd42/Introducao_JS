@@ -12,7 +12,7 @@ var mulher = {
     sexo: 'feminino'
 };
 
-var joao = console.log(junior); // { nome: 'Junior', idade: 25 }
+var joao = {
     nome: 'João',
     idade: 20,
     __proto__: homem
