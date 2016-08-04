@@ -62,9 +62,9 @@ idade: 22,
 getIdade
 };
 
-console.log(pessoa.getIdade(2, 5)); // 22
-console.log(getIdade.call(pessoa, 3, 1, 3)); // undefined
-console.log(getIdade.apply(pessoa, [5, 2, 5])); // 22
+console.log(pessoa.getIdade(2)); // { '0': 2 } 24
+console.log(getIdade.call(pessoa, 3, 1)); // { '0': 3, '1': 1 } 25
+console.log(getIdade.apply(pessoa, [5, 1, 2])); // { '0': 5, '1': 1, '2': 2} 27
 
 
 
