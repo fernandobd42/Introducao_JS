@@ -116,7 +116,8 @@ var Pessoa = function(nome, idade) {
   this.idade = idade;
 };
 var pedro = new Pessoa('Pedro', 20);
-console.log(pedro);
+console.log(pedro); //{ nome: 'Pedro', idade: 20 }
+
 
 
 
@@ -144,8 +145,8 @@ console.log('Fernando' < 'Lucas'); // true, Porque o F é 'menor' que o L.
 
 //Operadores aritméticos (+, -, *, / e %).
 console.log('Fernando' + ' Lucas'); // Fernando Lucas
-console.log(12 * 6);
-console.log(10 % 2);
+console.log(12 * 6); // 72
+console.log(10 % 2); // 0
 
 
 
