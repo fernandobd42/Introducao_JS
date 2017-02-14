@@ -1,22 +1,86 @@
-Introção ao JavaScript
 
-1. [Introdução a JavaScript](https://github.com/fernandobd42/Introducao_JS/blob/master/00_Introdu%C3%A7%C3%A3o_a_JavaScript.md)
-2. [Introdução a algoritmos](https://github.com/fernandobd42/Introducao_JS/blob/master/00_Introdu%C3%A7%C3%A3o_a_algoritmos.md)
-3. [Funções 1](https://github.com/fernandobd42/Introducao_JS/blob/master/1_functions.js)
-3. [Funções 1 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/1_functions_ES6.js)
-4. [Funções 2](https://github.com/fernandobd42/Introducao_JS/blob/master/2_functions.js)
-4. [Funções 2  em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/2_functions_ES6.js)
-5. [Array](https://github.com/fernandobd42/Introducao_JS/blob/master/3_arrays.js)
-5. [Array em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/3_arrays_ES6.js)
-6. [Expressões Regulares](https://github.com/fernandobd42/Introducao_JS/blob/master/4_Expressoes_regulares.js)
-6. [Expressões Regulares em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/4_Expressoes_regulares_ES6.js)
-7. [Date](https://github.com/fernandobd42/Introducao_JS/blob/master/5_Date.js)
-7. [Date em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/5_Date_ES6.js)
-8. [Operadores](https://github.com/fernandobd42/Introducao_JS/blob/master/6_Operadores.js)
-8. [Operadores em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/6_Operadores_ES6.js)
-9. [Declarações](https://github.com/fernandobd42/Introducao_JS/blob/master/7_Statements.js)
-9. [Declarações em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/7_Statements_ES6.js)
-10. [Herança 1](https://github.com/fernandobd42/Introducao_JS/blob/master/8_Heren%C3%A7a.js)
-10. [Herança 1 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/8_Heren%C3%A7a_ES6.js)
-11. [Herança 2](https://github.com/fernandobd42/Introducao_JS/blob/master/9_Heren%C3%A7a.js)
-11. [Herança 2 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/9_Heren%C3%A7a_ES6.js)
+
+###"A linguagem JavaScript é a única que as pessoas acham que não precisam aprender antes de começar a utilizar."
+(Douglas Crockford)
+
+##O que é?
+
+ JavaScript é uma linguagem de programação, criada por Dan Winkler em 1987 para a plataforma HyperCard da Apple. A princípio   denominada HyperTalk, que era uma linguagem orientada a eventos, que veio para simplificar, a proposta do criador era de fazer uma linguagem para iniciantes.
+ A Netscape quando viu, ficou impressionada com a simplicidade da linguagem, e teve a idéia de embarcar ela no browser. Foi ai que o tão famoso Brendan Eich, conhecido como o criador do JavaScript entrou em cena. A Netscape então contratou-o para implementar uma linguagem para o seu browser. Tendo em vista que a Netscape buscava algo simples, o Brendan Eich se baseou nas linguagens Java, Scheme, Self, e Perl. A seguir será esplanado superficialmente quais são as origens do JavaScript.
+
+**Java:**
+  - Sintaxe; Sintaxe familiar, exemplo do objeto Math que faz operações, porém uma coisa não tem nada a
+ver com a outra.
+  - Algumas convenções; CamelCase, nome de função e variável com letra minuscúla, dentre algumas outras
+similaridades.
+
+**Scheme:**
+  - Lambda; Função anônima.
+  - Closure; Acontece quando uma função é criada dentro de outra função.
+  - Tipagem Fraca; Torna possível fazer operações com valores de tipos diferentes, convertendo o tipo dos
+valores e fazendo concatenção.
+
+**Self:**
+  - Herança baseada em protótipos; É um estilo de programação orientada a objetos na qual não existe classes, em vez disso, a reutilização de comportamento(equivalente a herança das linguagens baseadas em classes) é realizada através de um processo de decorar(expandir) objetos existentes que servem como protótipos.Basicamente objetos herdam de outros objetos.
+  - Objetos dinâmicos; Permite que você defina seus próprios objetos. Em JavaScript pode-se adicionar métodos a objetos individuais, sem a necessidade de reusos adicionais. Isso dá enorme poder, uma vez quese pode escrever menos, com mais simplicidade e menor complexidade de código. É importante lembrar que objetos em JavaScript são como hashtables. Assim, se pode adicionar novos valores a qualquer momento.Já se o valor é  uma função, então se torna um método.
+
+**Perl:**
+  - Expressões Regulares; São padrões utilizados para selecionar cadeias de caracteres de interesse em um texto. Em JavaScript, expressões regulares são também objetos. Por exemplo elas podem ser utilizadas com os métodos exec e test do objeto RegExp, e com os métodos match, replace, search, e split do objeto String.
+
+   O primeiro nome da linguagem foi Mocha, sugerido pelo fundador da Netcape Marc Andreessen, porém acabou nem indo para o mercado. A linguagem foi lançada oficialmente em Setembro de 1995 com o nome de LiveScript na versão beta do Netscape Navigator 2.0. A partir de então a Netscape estava entrando com tudo no mundo dos browsers e a Microsoft não quis perder a carona e se deu início ao internet explorer.
+   Em dezembro, o nome da linguagem mudou para JavaScript, a partir de um acordo feito com a Sun com o objetivo de destruir a Microsoft. A Sun então registrou o JavaScript como uma marca de uso exclusivo da Netscape, impossibilitando a Microsoft de utilizar a linguagem. Ainda assim a Microsoft fez uma engenharia reversa da linguagem JavaScript e criou a linguaguem JScript.
+   A Netscape com medo de perder o controle, buscou padronizar a linguagem em entidades respeitadas, até que em 1997 junto a ECMA(European Computer Manufacturers Association) Internacional, conseguiu padronizar a linguagem nomeando-a ECMAScript como nome oficial, JavaScript é apenas o nome fantasia.
+
+
+##Características
+
+  - JavaScript é uma linguagem interpretada, não é preciso instalar nada na sua máquina, nem um tipo de
+compilador a não ser que voce queira interpretá-la.
+  - Utiliza de uma orientação a objetos baseada em protótipos, basicamente não usa classes para promover
+heranças, mas sim os próprios objetos. Simplesmente objetos herdam de objetos. *
+  - É uma linguagem que possui tipagem fraca e dinâmica, isto quer dizer que a gente tem uma liberdade
+muito grande, só que isso gera um pouco de insegurança já que a gente não tem garantia dos nossos tipos,
+com JavaScript é possível concatenar valores de tipos diferentes.
+  - A linguagem não apresenta suporte a programação multi-thread, mas nada impede que seus interpretadores
+implementem esta habilidade de fazer algum tipo de processamento em paralelo.
+
+
+##Como funciona?
+
+  Esta linguagem vem sendo bastante utilizada para o desenvolvimento de aplicações web, atualmente tanto no lado do cliente para promover os estilos nas páginas HTML com animações em CSS, quanto no lado do servidor
+para fazer a manipulação e validação dos dados utilizando NodeJS. A linguagem permite que a aplicação seja
+totalmente funcional e dinâmica, sendo possível também modelar e manipular até o banco de dados através da
+linguagem utilizando MongoDB.
+  Hoje esta presente nos Browsers, a até nas Tvs, como nas samsungs smart. Usa o V8 que é o motor de
+renderização da linguagem, que funciona como uma máquina virtual que compila o código em JavaScript para
+o formato nativo de máquina antes de executá-lo, tendo como propósito aumentar o desempenho da aplicação.
+
+
+##Por convenção aconselha-se criar as variáveis seguindo as regras:
+
+  - Devem começar por uma letra, $, ou _
+  - Após a primeira letra, podem conter números.
+  - Começam com letra minúscula e usam camelCase
+  - É case-sensitive
+
+
+**Introção ao JavaScript**
+
+1. [Funções 1](https://github.com/fernandobd42/Introducao_JS/blob/master/1_functions.js)
+1. [Funções 1 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/1_functions_ES6.js)
+2. [Funções 2](https://github.com/fernandobd42/Introducao_JS/blob/master/2_functions.js)
+2. [Funções 2  em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/2_functions_ES6.js)
+3. [Array](https://github.com/fernandobd42/Introducao_JS/blob/master/3_arrays.js)
+3. [Array em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/3_arrays_ES6.js)
+4. [Expressões Regulares](https://github.com/fernandobd42/Introducao_JS/blob/master/4_Expressoes_regulares.js)
+4. [Expressões Regulares em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/4_Expressoes_regulares_ES6.js)
+5. [Date](https://github.com/fernandobd42/Introducao_JS/blob/master/5_Date.js)
+5. [Date em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/5_Date_ES6.js)
+6. [Operadores](https://github.com/fernandobd42/Introducao_JS/blob/master/6_Operadores.js)
+6. [Operadores em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/6_Operadores_ES6.js)
+7. [Declarações](https://github.com/fernandobd42/Introducao_JS/blob/master/7_Statements.js)
+7. [Declarações em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/7_Statements_ES6.js)
+8. [Herança 1](https://github.com/fernandobd42/Introducao_JS/blob/master/8_Heren%C3%A7a.js)
+8. [Herança 1 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/8_Heren%C3%A7a_ES6.js)
+9. [Herança 2](https://github.com/fernandobd42/Introducao_JS/blob/master/9_Heren%C3%A7a.js)
+9. [Herança 2 em ES6](https://github.com/fernandobd42/Introducao_JS/blob/master/9_Heren%C3%A7a_ES6.js)
