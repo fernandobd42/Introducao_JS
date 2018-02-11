@@ -1,9 +1,9 @@
 
 
-###"A linguagem JavaScript é a única que as pessoas acham que não precisam aprender antes de começar a utilizar."
+### "A linguagem JavaScript é a única que as pessoas acham que não precisam aprender antes de começar a utilizar."
 (Douglas Crockford)
 
-##O que é?
+## O que é?
 
  JavaScript é uma linguagem de programação, criada por Dan Winkler em 1987 para a plataforma HyperCard da Apple. A princípio   denominada HyperTalk, que era uma linguagem orientada a eventos, que veio para simplificar, a proposta do criador era de fazer uma linguagem para iniciantes.
  A Netscape quando viu, ficou impressionada com a simplicidade da linguagem, e teve a idéia de embarcar ela no browser. Foi ai que o tão famoso Brendan Eich, conhecido como o criador do JavaScript entrou em cena. A Netscape então contratou-o para implementar uma linguagem para o seu browser. Tendo em vista que a Netscape buscava algo simples, o Brendan Eich se baseou nas linguagens Java, Scheme, Self, e Perl. A seguir será esplanado superficialmente quais são as origens do JavaScript.
@@ -32,7 +32,7 @@ valores e fazendo concatenção.
    A Netscape com medo de perder o controle, buscou padronizar a linguagem em entidades respeitadas, até que em 1997 junto a ECMA(European Computer Manufacturers Association) Internacional, conseguiu padronizar a linguagem nomeando-a ECMAScript como nome oficial, JavaScript é apenas o nome fantasia.
 
 
-##Características
+## Características
 
   - JavaScript é uma linguagem interpretada, não é preciso instalar nada na sua máquina, nem um tipo de
 compilador a não ser que voce queira interpretá-la.
@@ -45,7 +45,7 @@ com JavaScript é possível concatenar valores de tipos diferentes.
 implementem esta habilidade de fazer algum tipo de processamento em paralelo.
 
 
-##Como funciona?
+## Como funciona?
 
   Esta linguagem vem sendo bastante utilizada para o desenvolvimento de aplicações web, atualmente tanto no lado do cliente para promover os estilos nas páginas HTML com animações em CSS, quanto no lado do servidor
 para fazer a manipulação e validação dos dados utilizando NodeJS. A linguagem permite que a aplicação seja
@@ -56,7 +56,7 @@ renderização da linguagem, que funciona como uma máquina virtual que compila 
 o formato nativo de máquina antes de executá-lo, tendo como propósito aumentar o desempenho da aplicação.
 
 
-##Por convenção aconselha-se criar as variáveis seguindo as regras:
+## Por convenção aconselha-se criar as variáveis seguindo as regras:
 
   - Devem começar por uma letra, $, ou _
   - Após a primeira letra, podem conter números.
